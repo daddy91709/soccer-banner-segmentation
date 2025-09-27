@@ -33,7 +33,6 @@ deep-learning-project/
 ├── README.md                          # This file
 ├── .gitignore                         # Git ignore rules
 ├── main-nb.ipynb                      # Main notebook with complete pipeline
-├── sam_finetuning.ipynb              # SAM2 fine-tuning notebook (ignored)
 ├── clipsim.py                        # CLIP similarity and content ID assignment
 ├── utils.py                          # Utility functions for data processing
 ├── test.py                           # Test script for mask-to-bbox conversion
@@ -137,5 +136,6 @@ pip install huggingface_hub
 - **Model Checkpoints**: Trained weights for future inference
 
 ## License
+
 
 This project is for research and educational purposes. Please ensure compliance with the licenses of the underlying models (YOLO, SAM2, CLIP).
